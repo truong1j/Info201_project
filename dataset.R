@@ -1,0 +1,1 @@
+potential_data <- read.csv("~/dataset/united-states-renewable-energy-technical-potential-1.csv", header = TRUE, stringsAsFactors = FALSE)
