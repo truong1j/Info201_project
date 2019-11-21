@@ -1,0 +1,12 @@
+name: Info201_project
+title: Info201_project
+username:
+account: info201ag1
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1505149
+bundleId: 2606267
+url: https://info201ag1.shinyapps.io/Info201_project/
+when: 1574317802.12528
+asMultiple: FALSE
+asStatic: FALSE
