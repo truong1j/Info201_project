@@ -1,0 +1,101 @@
+# Info201 Project Report
+## Green with Envy: Are We Meeting Our Renewable Potential?
+Code Name: Info201_project
+
+##### Vicky Liu (yunshl2@uw.edu)
+
+##### Madeline Harp (madharp@uw.edu)
+
+##### Jenna Truong (truong1j@uw.edu)
+
+##### Daniel Kim (ddk22@uw.edu)
+
+Info-201: Technical Foundations of Informatics\
+The Information School\
+University of Washington\
+Autumn 2019
+
+
+### 1.0 Introduction
+#### 1.1 Problem Situation
+
+"Wind turbines, solar panels and electric vehicles are spreading far more quickly around the world than many experts had predicted. But this rapid growth in clean energy isn’t yet fast enough to slash humanity’s greenhouse gas emissions and get global warming under control" (New York Times). Washington is said to be one of the nation’s largest producers of renewable energy and we hope to analyze the production potential and actual generation of green energy across the United States. Within green energy production, we find that there are many stakeholders including but not limited to energy companies, energy consumers (residential, commercial, industrial, and transportation sectors), and environmentalists, to mention a few. A piece of policy that touches on the topic of green energy is Washington state passing law requiring 100% clean energy by 2045. Beyond this law, the country has seen a rise in interest in other legislation such as the Green New Deal, which has become a point of campaign for Democratic candidates leading up to the 2020 election. 
+
+#### 1.2 What is the problem?
+
+There are ample areas for improvement in terms of energy efficiency, one of which is utilizing renewable energy production across the United States that are not being used to their full potential. We will find which states are using fully reaching their potential and which states are not by comparing their current production to the potentiality of their production.  
+
+#### 1.3 Why does it matter?
+
+If Washington is able to improve upon their energy usage and production, the state should consider viable options to optimize and enhance the current state of their energy production. The state of Washington has already taken strides in the right directions. For instance, a legislation was passed last spring that outlined the state’s plan to mandate carbon-free sourced energy. Though this expedites the process of reaching a clean sourced energy grid, is there room for more?
+
+#### 1.4 How it will be addressed?
+We will be creating data visualizations to show the variance in production and potential of reusable energy, hopefully creating a sense of a need to mobilize and fight for greener energy in Washington as well as other states. We will also provide an outline or discussion describing our findings and what steps can be taken to maximize green energy production. We will be utilizing maps and historgrams to display data. These visualizations are intended for everyone, from your average energy consumer to a CEO of a corporation. 
+
+
+### 2.0 Research Questions
+How does Washington compare to other states in terms of renewable energy production and production potential?
+
+### 3.0 Possible Datasets
+What we have:
+Our first dataset is from data.world, and called United States Renewable Energy Technical Potential, created by the U.S. Department of Energy. The data set consists of 51 rows and 31 columns which give information about the generation potential of various renewable energy sources by state. The data sets were created to show how much renewable energy a state could produce, by spliting it into the different types of renewable energy. The weakness of the dataset is that it likely doesn't account for changes in the infrastructure of a state, for instance if you build more skyscrapers you can impact the solar poential of an area, meaning the dataset is not likely to be accurate in a couple of years when you account for development. A stength of the dataset is that it incorporates information Diverse Geographies by separating data by state, however it could be separated by a smaller scale like county and provide even more accountability for diverse geographies within states. For instance, Washington state has one of the most diverse topographies in America, which could greatly impact energy production source. 
+
+ [United-states-renewable-energy-technical-potential-1.csv](https://data.world/us-doe-gov/6a295b3b-31ff-440f-acef-f4f91760ff27/workspace/file?filename=united-states-renewable-energy-technical-potential-1.csv)
+
+Our second data set outlines the energy production of the United States (by state) over the course of the last twenty years. There are five columns which outline the year, state, type of energy producer, energy source, and the total generation from each source. This data set contains over 50,000 rows of data ranging from 1990 to 2018. This source was accessed from the U.S. Energy Information Administration. A stength of this dataset is that it breaks down the amount of energy produced in a year by a state also by the type of producer and source. 
+
+[Net Generation by State by Type of Producer by Energy Source (EIA-906, EIA-920, and EIA-923)1](https://www.eia.gov/electricity/data/state/)
+
+### 4.0 Information Visualization
+What we have:
+Because much of our data was ofanized by state, we decided heat maps would be a beneficial way to visualize the data due to the accessiblity of maps to a general audience. If we wanted to compare Washington state to other states in terms of energy production, we would find that using a heat map would be beneficial because it would utilize a color comparison. 
+
+We also decided to make a histogram to show the 
+
+What is required:
+You describe your approach for visualizing the data sets. This section should be quite closely linked to your research questions. You describe the specific choices you’ve made for visualizing the data
+
+### 5.0 Technical Description of Shiny Application
+You describe how your Shiny application is built. You describe its major components and how they work. Key questions to answer: (1) How did you load your data (e.g., .csv file, API, etc.)? (2) Some major libraries that we utilized were plotly, ggplot2, htmltools, leaflet, dplyr, data.table. (3) How did you organize your code (directories and code files)? (4) No questions were answered utilizing statistical analysis or machine learning. 
+
+### 6.0 Conclusion
+You should summarize: (1) The strengths and weaknesses of the project; (2) The main lessons that you learned; and (3) The future work that you or someone else might pursue.
+
+### Acknowledgements 
+We would like to acknowledge Andrey, our TA, for helping us along the way.
+
+### References
+[United-states-renewable-energy-technical-potential-1.csv](https://data.world/us-doe-gov/6a295b3b-31ff-440f-acef-f4f91760ff27/workspace/file?filename=united-states-renewable-energy-technical-potential-1.csv)
+ 
+[Net Generation by State by Type of Producer by Energy Source (EIA-906, EIA-920, and EIA-923)1](https://www.eia.gov/electricity/data/state/)
+
+### Appendix 1: Data Dictionary
+Variable Name | Description | Data Type | Measurement Type
+------------- | ----------- | --------- | ----------------
+Year | The time at which the data point was collected | Ordinal | Calendar Year
+State | The location in which the data point was collected | Nominal | State name
+Energy Source | The source the energy is generated from | Nominal | Source Name
+Generation | Energy produced | Ratio | Megawatthours
+Urban Utility scale | Solar generation that feeds into the grid based on urban requirements | Ratio | GWH, GW, KM2
+Rural Utility Scale | Solar generation that feeds into the grid based on rural requirements | Ratio | GWH, GW, KM2
+Rooftop | Solar energy generated from rooftops | Ratio | GWH, GW
+CSP | Concentrated solar power that utilizes lenses or mirrors to concentrate a large area of sunlight into a smaller one | Ratio | GWH, GW, KM2
+Onshore Wind | Energy produced by windmills on land | Ratio | GWH, GW
+Offshore Wind | Energy produced by windmills in water | Ratio | GWH, GW
+Biopower Solid | Energy produced by solid biofuels like wood, leaves, dung | Ratio | GWH, GW
+Biopower Gas | Energy produced by gaseous biofuels like ethanol, biodiesel | Ratio | GWH, GW
+Geothermal | Energy produced by the internal heat of the earth | Ratio | GWH, GW
+Hydropower | Energy produced by moving water, typically dams | Ratio | GWH, GW
+
+### Appendix 2: Reflections
+In this appendix each team member should write a personal reflection on the project [> 150 words]. Topics might include: What you learned, what you found satisfying/frustrating, what you would do differently in the future, how the project positioned you develop your identity for coder, thinker, and innovator, and so forth.
+
+### Appendix 3: Use of Envisioning Cards
+We approached our project with the following Envisioning Cards in mind: 
+
+Envisioning Card | Relationship to Project
+---------------- | -----------------------
+Political Realities | In terms of political realities, there could be issues in regulating renewable energy because of inconsistencies in federal, state, and local laws. This is something we regularly encounter in the United States, for example how recreational marijuana is legal in the state of Washington, but illegal federally. 
+Environmental Sustainability | Our project is about environmental sustainability because relying on fossil fuels is not sustainable. In terms of environmental sustainability, switching to renewables is one of the most impactful ways to slow climate change. 
+Long-Term Health and Well-Being | Our project relates to long-term health and well-being because of all of the negative health and quality of life issues associated with climate change. 
+Diverse Geographies | We acknowlegde that our dataset incorporates information on diverse geographies by separating data by state (therefore separating their geographies on that level), however it could be separated by a smaller scale like county and provide even more accountability for diverse geographies within states. For instance, Washington state has one of the most diverse topographies in America, which could greatly impact energy production source.
