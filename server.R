@@ -63,11 +63,11 @@ server <- function(input, output) {
   })
   
   #potential
-  energy_sources <- potential_data %>% 
+   potential_data %>% 
     select(X, hydropower_GWh, EGSGeothermal_GW, onshoreWind_GWh)
   
   
-  energy_sources_df <- energy_sources %>%   
+  potential_data %>%   
     gather(key = "type",
            value = "Gwh",
            hydropower_GWh, EGSGeothermal_GW, onshoreWind_GWh)

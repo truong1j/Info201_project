@@ -5,8 +5,8 @@ account: info201ag1
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1505149
-bundleId: 2606326
+bundleId: 2606385
 url: https://info201ag1.shinyapps.io/Info201_project/
-when: 1574319641.59141
+when: 1574321638.86571
 asMultiple: FALSE
 asStatic: FALSE
