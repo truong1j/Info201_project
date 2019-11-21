@@ -63,24 +63,23 @@ server <- function(input, output) {
   })
   
   #potential
-   potential_data %>% 
+  energy_sources <- potential_data %>% 
     select(X, hydropower_GWh, EGSGeothermal_GW, onshoreWind_GWh)
   
   
-  potential_data %>%   
+  energy_sources_df <- energy_sources %>%   
     gather(key = "type",
            value = "Gwh",
            hydropower_GWh, EGSGeothermal_GW, onshoreWind_GWh)
-  
-    output$energyPlot <- renderPlot({
-      data <- energy_sources_df %>% filter(X == input$state)
-      
-      data %>% 
-        ggplot(aes(x = type,
-                   y = Gwh)) + geom_col()  + ggtitle("Energy Prodction by State") 
-      
-})
-  
+  write.csv(energy_sources_df, "energy_sources_df.csv")  
+  output$energyPlot <- renderPlot({
+    data <- energy_sources_df %>% filter(X == input$state)
+    
+    data %>% 
+      ggplot(aes(x = type,
+                 y = Gwh)) + geom_col()  + ggtitle("Energy Prodction by State") 
+    
+  })
 }
 
 

@@ -1,0 +1,154 @@
+"","X","type","Gwh"
+"1","Alabama","hydropower_GWh",4102
+"2","Alaska","hydropower_GWh",23675
+"3","Arizona","hydropower_GWh",1303
+"4","Arkansas","hydropower_GWh",6093
+"5","California","hydropower_GWh",30023
+"6","Colorado","hydropower_GWh",7789
+"7","Connecticut","hydropower_GWh",922
+"8","Delaware","hydropower_GWh",30
+"9","District of Columbia","hydropower_GWh",0
+"10","Florida","hydropower_GWh",682
+"11","Georgia","hydropower_GWh",1988
+"12","Hawaii","hydropower_GWh",2602
+"13","Idaho","hydropower_GWh",18757
+"14","Illinois","hydropower_GWh",4882
+"15","Indiana","hydropower_GWh",2394
+"16","Iowa","hydropower_GWh",2818
+"17","Kansas","hydropower_GWh",2507
+"18","Kentucky","hydropower_GWh",4255
+"19","Louisiana","hydropower_GWh",2423
+"20","Maine","hydropower_GWh",3916
+"21","Maryland","hydropower_GWh",814
+"22","Massachusetts","hydropower_GWh",1196
+"23","Michigan","hydropower_GWh",1180
+"24","Minnesota","hydropower_GWh",1254
+"25","Mississippi","hydropower_GWh",2211
+"26","Missouri","hydropower_GWh",7198
+"27","Montana","hydropower_GWh",14546
+"28","Nebraska","hydropower_GWh",3142
+"29","Nevada","hydropower_GWh",845
+"30","New Hampshire","hydropower_GWh",1740
+"31","New Jersey","hydropower_GWh",549
+"32","New Mexico","hydropower_GWh",1362
+"33","New York","hydropower_GWh",6711
+"34","North Carolina","hydropower_GWh",3036
+"35","North Dakota","hydropower_GWh",347
+"36","Ohio","hydropower_GWh",3045
+"37","Oklahoma","hydropower_GWh",3015
+"38","Oregon","hydropower_GWh",18184
+"39","Pennsylvania","hydropower_GWh",8368
+"40","Rhode Island","hydropower_GWh",59
+"41","South Carolina","hydropower_GWh",1888
+"42","South Dakota","hydropower_GWh",1047
+"43","Tennessee","hydropower_GWh",5744
+"44","Texas","hydropower_GWh",3006
+"45","Utah","hydropower_GWh",3528
+"46","Vermont","hydropower_GWh",1710
+"47","Virginia","hydropower_GWh",3656
+"48","Washington","hydropower_GWh",27248
+"49","West Virginia","hydropower_GWh",4408
+"50","Wisconsin","hydropower_GWh",2286
+"51","Wyoming","hydropower_GWh",4445
+"52","Alabama","EGSGeothermal_GW",67
+"53","Alaska","EGSGeothermal_GW",NA
+"54","Arizona","EGSGeothermal_GW",157
+"55","Arkansas","EGSGeothermal_GW",79
+"56","California","EGSGeothermal_GW",170
+"57","Colorado","EGSGeothermal_GW",158
+"58","Connecticut","EGSGeothermal_GW",7
+"59","Delaware","EGSGeothermal_GW",2
+"60","District of Columbia","EGSGeothermal_GW",0
+"61","Florida","EGSGeothermal_GW",47
+"62","Georgia","EGSGeothermal_GW",44
+"63","Hawaii","EGSGeothermal_GW",NA
+"64","Idaho","EGSGeothermal_GW",125
+"65","Illinois","EGSGeothermal_GW",85
+"66","Indiana","EGSGeothermal_GW",55
+"67","Iowa","EGSGeothermal_GW",76
+"68","Kansas","EGSGeothermal_GW",125
+"69","Kentucky","EGSGeothermal_GW",61
+"70","Louisiana","EGSGeothermal_GW",61
+"71","Maine","EGSGeothermal_GW",47
+"72","Maryland","EGSGeothermal_GW",10
+"73","Massachusetts","EGSGeothermal_GW",11
+"74","Michigan","EGSGeothermal_GW",58
+"75","Minnesota","EGSGeothermal_GW",46
+"76","Mississippi","EGSGeothermal_GW",70
+"77","Missouri","EGSGeothermal_GW",105
+"78","Montana","EGSGeothermal_GW",208
+"79","Nebraska","EGSGeothermal_GW",117
+"80","Nevada","EGSGeothermal_GW",160
+"81","New Hampshire","EGSGeothermal_GW",13
+"82","New Jersey","EGSGeothermal_GW",4
+"83","New Mexico","EGSGeothermal_GW",179
+"84","New York","EGSGeothermal_GW",47
+"85","North Carolina","EGSGeothermal_GW",53
+"86","North Dakota","EGSGeothermal_GW",104
+"87","Ohio","EGSGeothermal_GW",62
+"88","Oklahoma","EGSGeothermal_GW",98
+"89","Oregon","EGSGeothermal_GW",115
+"90","Pennsylvania","EGSGeothermal_GW",41
+"91","Rhode Island","EGSGeothermal_GW",1
+"92","South Carolina","EGSGeothermal_GW",46
+"93","South Dakota","EGSGeothermal_GW",116
+"94","Tennessee","EGSGeothermal_GW",54
+"95","Texas","EGSGeothermal_GW",384
+"96","Utah","EGSGeothermal_GW",119
+"97","Vermont","EGSGeothermal_GW",4
+"98","Virginia","EGSGeothermal_GW",36
+"99","Washington","EGSGeothermal_GW",71
+"100","West Virginia","EGSGeothermal_GW",33
+"101","Wisconsin","EGSGeothermal_GW",82
+"102","Wyoming","EGSGeothermal_GW",135
+"103","Alabama","onshoreWind_GWh",283
+"104","Alaska","onshoreWind_GWh",1373433
+"105","Arizona","onshoreWind_GWh",26036
+"106","Arkansas","onshoreWind_GWh",22892
+"107","California","onshoreWind_GWh",89862
+"108","Colorado","onshoreWind_GWh",1096035
+"109","Connecticut","onshoreWind_GWh",61
+"110","Delaware","onshoreWind_GWh",21
+"111","District of Columbia","onshoreWind_GWh",0
+"112","Florida","onshoreWind_GWh",0
+"113","Georgia","onshoreWind_GWh",322
+"114","Hawaii","onshoreWind_GWh",7786
+"115","Idaho","onshoreWind_GWh",44319
+"116","Illinois","onshoreWind_GWh",649467
+"117","Indiana","onshoreWind_GWh",377603
+"118","Iowa","onshoreWind_GWh",1723587
+"119","Kansas","onshoreWind_GWh",3101575
+"120","Kentucky","onshoreWind_GWh",147
+"121","Louisiana","onshoreWind_GWh",934
+"122","Maine","onshoreWind_GWh",28742
+"123","Maryland","onshoreWind_GWh",3631
+"124","Massachusetts","onshoreWind_GWh",2827
+"125","Michigan","onshoreWind_GWh",143907
+"126","Minnesota","onshoreWind_GWh",1428524
+"127","Mississippi","onshoreWind_GWh",0
+"128","Missouri","onshoreWind_GWh",689519
+"129","Montana","onshoreWind_GWh",2746271
+"130","Nebraska","onshoreWind_GWh",3011252
+"131","Nevada","onshoreWind_GWh",17709
+"132","New Hampshire","onshoreWind_GWh",5706
+"133","New Jersey","onshoreWind_GWh",317
+"134","New Mexico","onshoreWind_GWh",1399156
+"135","New York","onshoreWind_GWh",63565
+"136","North Carolina","onshoreWind_GWh",2037
+"137","North Dakota","onshoreWind_GWh",2537824
+"138","Ohio","onshoreWind_GWh",129142
+"139","Oklahoma","onshoreWind_GWh",1521651
+"140","Oregon","onshoreWind_GWh",68766
+"141","Pennsylvania","onshoreWind_GWh",8230
+"142","Rhode Island","onshoreWind_GWh",129
+"143","South Carolina","onshoreWind_GWh",427
+"144","South Dakota","onshoreWind_GWh",2901858
+"145","Tennessee","onshoreWind_GWh",765
+"146","Texas","onshoreWind_GWh",5552399
+"147","Utah","onshoreWind_GWh",31552
+"148","Vermont","onshoreWind_GWh",7795
+"149","Virginia","onshoreWind_GWh",4589
+"150","Washington","onshoreWind_GWh",47249
+"151","West Virginia","onshoreWind_GWh",4951
+"152","Wisconsin","onshoreWind_GWh",255266
+"153","Wyoming","onshoreWind_GWh",1653856
